@@ -14,7 +14,11 @@ Important details can be difficult to identify quickly, especially when requests
 
 ## The Experiment
 
-I created an AI-assisted workflow that analyzes a customer message and extracts useful operational information, including:
+I created this small learning experiment with the help of AI tools to explore how artificial intelligence could support customer operations workflows.
+
+The project is designed around operational scenarios inspired by my previous experience in customer service and logistics. I tested the workflow with different fictional customer requests, evaluated the results, and refined the prompt when areas where the AI could be more consistent were identified.
+
+The workflow analyzes a customer message and extracts useful operational information, including:
 
 * Request type
 * Assets or shipment information mentioned
@@ -56,11 +60,18 @@ Through this project, I am exploring:
 
 ## Background
 
-This project is based on my interest in combining customer service, operations, and emerging AI tools.
+## Background
 
-I am building this as a learning project to better understand practical applications of AI in everyday business processes.
+My professional experience includes customer service and logistics operations, where I worked with customer requests, shipment information, operational status updates, and internal follow-up.
+
+I have limited formal experience developing AI systems, so I created this project as a practical way to learn by applying AI to a business process I already understand.
+
+I used AI tools as part of the learning and development process, while providing the operational context, designing additional test scenarios, evaluating the outputs, and deciding how the workflow could be improved.
+
+The goal of this project is not to present a production-ready AI system, but to demonstrate my curiosity about AI, my ability to learn new tools, and my interest in finding practical ways to improve business processes.
+
 
 ## Disclaimer
 
-This is a personal learning project and all examples are fictional, they do not contain real customer, shipment, or company information.
+This is a personal learning project and all examples are fictional, they do not contain real company or shipment information.
 
