@@ -67,6 +67,6 @@ If I continued developing this project, I would explore:
 
 ## Project Status
 
-This is a small personal learning experiment rather than a production system.
+This is a small personal learning experiment.
 
-The examples are fictional and contain no real customer, shipment, or company information.
+The examples are fictional and do not contain real information.
