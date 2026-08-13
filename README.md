@@ -62,5 +62,5 @@ I am building this as a learning project to better understand practical applicat
 
 ## Disclaimer
 
-This is a personal learning project. All examples are fictional and do not contain real customer, shipment, or company information.
+This is a personal learning project and all examples are fictional, they do not contain real customer, shipment, or company information.
 
