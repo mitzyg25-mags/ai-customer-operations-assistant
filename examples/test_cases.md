@@ -83,3 +83,36 @@ After updating the prompt, the same test case was classified as High priority.
 Additional tests showed that the revised prompt could distinguish between routine status requests and operationally significant delays.
 
 This experiment showed me that clear decision criteria are important when designing AI-assisted workflows and that testing with different scenarios is necessary before relying on an AI output.
+
+
+
+## Test Case 4 — Rail Interchange Status
+
+### Customer Message
+
+> Hello, we want an update on two of our units, SFX999 and SFX888 we last knew that their location was where the exchange with the second rail company would take place 1 day ago, they tell us they have not received the units, we would like to know where they are and when would the exchange take place.
+
+### My Expected Behavior
+
+I expected the AI to:
+
+* Identify this as a shipment status and railcar location inquiry.
+* Recognize that the situation involves an interchange between rail companies.
+* Treat the request as high priority because the expected interchange has already been missed.
+* Recommend checking the latest movement and interchange records.
+* Avoid assuming the current location of the units.
+* Identify missing information that would be needed to investigate the issue.
+
+### Result
+
+The AI classified the request as **High priority** and identified the main issue correctly.
+
+It recommended checking the latest tracking and interchange records and correctly identified that information such as the current location, exchange location, and relevant shipment details was missing.
+
+I agreed with the AI's assessment because it matched the operational situation described in the customer message without making unsupported assumptions.
+
+### What This Test Added
+
+This scenario was created independently as an additional test of the workflow.
+
+It helped me evaluate whether the prompt could handle a more specific logistics scenario involving an interchange between rail companies rather than a simple pickup or delivery request.
