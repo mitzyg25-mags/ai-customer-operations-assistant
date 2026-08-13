@@ -60,8 +60,6 @@ Through this project, I am exploring:
 
 ## Background
 
-## Background
-
 My professional experience includes customer service and logistics operations, where I worked with customer requests, shipment information, operational status updates, and internal follow-up.
 
 I have limited formal experience developing AI systems, so I created this project as a practical way to learn by applying AI to a business process I already understand.
