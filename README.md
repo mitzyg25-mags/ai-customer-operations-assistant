@@ -1,4 +1,4 @@
-# AI Customer Operations Assistant (AI-Assisted)
+# AI Customer Operations Assistant 
 
 ## Overview
 
