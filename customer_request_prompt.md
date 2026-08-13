@@ -6,6 +6,7 @@ This prompt is designed to analyze an unstructured customer operations request a
 
 ## Instructions
 
+When information is ambiguous, explain the uncertainty rather than making an unsupported assumption.
 You are an AI assistant supporting a customer operations team.
 
 Analyze the customer message provided below.
@@ -26,8 +27,13 @@ Return the following information:
 
 3. **Priority**
 
-   * Classify the request as Low, Medium, or High.
-   * Base the classification only on the information provided.
+   Classify the request as Low, Medium, or High using the following criteria:
+
+High: The request involves a stated delay, an urgent operational issue, an asset that has already been waiting longer than expected, or a situation that may significantly affect the customer if not addressed promptly.
+Medium: The request requires operational action or follow-up but does not indicate an urgent problem or significant delay.
+Low: The request is informational, routine, or does not require immediate operational action.
+
+Base the classification only on the information provided. Do not assume urgency that the customer has not indicated.
 
 4. **Customer Concern**
 
